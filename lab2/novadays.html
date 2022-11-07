@@ -19,14 +19,11 @@
                 font-style:italic;
             }
             
-            div.firstlist li:nth-child(odd)
+            .first
             {
                 background-color: gray;
             }
-            div.firstlist li:nth-child(even)
-            {
-                background-color: white;
-            }
+
 
             #thirth, #fifth
             {
@@ -38,10 +35,7 @@
                 background-color: silver;
             }
 
-           
-
-       
-
+            
 
         </style>
     </head>
@@ -49,38 +43,34 @@
         <h1>Сьогодення Мочернюка Назара Ярославовича</h1>
         <a href="Index.html"><p id="back">Назад на головну</p></a>
         <h2>Мій типовий список покупок:</h2>
-        <div class="firstlist"> 
+        <div > 
             <ul>
-                <li>Макарони</li>
+                <li class="first">Макарони</li>
                 <li>Вода</li>
-                <li>Листя салату</li>
+                <li class="first">Листя салату</li>
                 <li>Лоток яєць</li>
-                <li>Хліб</li>
+                <li class="first">Хліб</li>
                 <li>Овочі
                     <ul>
-                        <li>Помідори</li>
+                        <li class="first">Помідори</li>
                         <li>Огірки</li>
-                        <li>Болгарський перець</li>
-                        <li>Капуста</li>
+                        <li class="first">Болгарський перець</li>
+                    </ul>
+                </li>
+                <li>Фрукти
+                    <ul>
+                        <li class="first">Банани</li>
+                        <li>Апельсини</li>
+                        <li class="first">Нектарин</li>
                     </ul>
                 </li>
                 <li>Морозиво</li>
-                <li>Фрукти
-                    <ul>
-                        <li>Банани</li>
-                        <li>Апельсини</li>
-                        <li>Нектарин</li>
-                        <li>Помело</li>
-                    </ul>
-                </li>
-               
-                <li>Вівсянка</li>
+                <li class="first">Вівсянка</li>   
                 <li>Молочні продукти
                     <ul>
-                        <li>Молоко</li>
+                        <li class="first">Молоко</li>
                         <li>Сир</li>
-                        <li>Йогурт</li>
-                        <li>Молочний коктейль</li>
+                        <li class="first">Йогурт</li>
                     </ul>
                 </li>
                 <li>Мед</li>
