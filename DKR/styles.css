@@ -31,6 +31,8 @@ h3
 .container
 {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 #firstbox, #secondbox, #thirdbox, #fourthbox
 {
@@ -124,7 +126,7 @@ a
     .col-elg-1, .col-elg-2, .col-elg-3, .col-elg-4, .col-elg-5, .col-elg-6, .col-elg-7, .col-elg-8,
     .col-elg-9, .col-elg-10, .col-elg-11, .col-elg-12
     {
-        float:left;
+        flex: 0 0 auto;
     } 
     .col-elg-1 {
     width: 8.33%;
@@ -153,13 +155,13 @@ a
     .col-elg-9 {
     width: 75%;
     }
-    .col-elg-10 {
+    .col-elg-10 {  
     width: 83.33%;
     }
-    .col-elg-11 {
+    .col-elg-11 {   
     width: 91.66%;
     }
-    .col-elg-12 {
+    .col-elg-12 {    
     width: 100%;
     }
     }
@@ -170,8 +172,9 @@ a
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
     .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
     {
-     float: left;
-    } 
+        flex: 0 0 auto;
+    }
+
     .altminor           /*За допомогою цього правила ми добились рівної суми ширина блоків у першому ряді*/
     {
         padding-left: 30.112px;
@@ -220,7 +223,7 @@ a
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,
     .col-md-9, .col-md-10, .col-md-11, .col-md-12
     {
-        float:left;  
+        flex: 0 0 auto; 
     }
     .col-md-1 {
     width: 8.33%;
@@ -265,7 +268,7 @@ a
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
     .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12
     {
-        float: left;
+        flex: 0 0 auto;
     } 
     table
     {
