@@ -13,20 +13,19 @@ h1
 }
 h2
 {
-    margin: 0px 0px 25px 20px;
+    margin: 0px 0px 15px 20px;
 }
 h1, h2
 {
     font-family: Raleway;
 }
-
 h3
 {
     font-family: Ubuntu;
     font-size: 21.92px;     /*(p) = 20% <--> 3,2 px --> 18,72(h3) + 3,2 = 21,92*/
     background-color: #fce642;
     color: #690228;    
-    border: 1px solid black; 
+    border: 2px solid black; 
     width: 160px;   
 }
 .container
@@ -35,7 +34,7 @@ h3
 }
 #firstbox, #secondbox, #thirdbox, #fourthbox
 {
-    border: 1px solid black;
+    border: 2px solid black;
     height: 390px;
 	display: flex;
     justify-content: space-between;
@@ -50,7 +49,6 @@ h3
 {
     background-color: #b1e841;
     color: #071ae8;
-
 }
 #thirdbox
 {
@@ -61,7 +59,8 @@ h3
 {
     background-color: #98fb98;
 }
-p, td, th, caption, li, a{
+p, td, th, caption, li, a
+{
     font-family: "Source Sans Pro"; 
 }
 p:nth-of-type(1)
@@ -84,7 +83,7 @@ ol ol
 table
 {
     text-align: center;
-    width: 295px; 
+    width: 235px; 
     height: 240px;
     margin-top: 20px;
     margin-right: auto;
@@ -112,6 +111,10 @@ img
 a
 {
     margin-left: 5px;
+}
+.minor
+{
+    padding: 15px;
 }
 
 
@@ -259,6 +262,10 @@ a
     {
         float: left;
     } 
+    table
+    {
+        width: 290px;
+    }
     .col-sm-1 {
     width: 8.33%;
     }
