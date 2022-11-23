@@ -123,45 +123,45 @@ a
 /* Extra Large devices */
 @media (min-width: 1201px) 
     {
-    .col-elg-1, .col-elg-2, .col-elg-3, .col-elg-4, .col-elg-5, .col-elg-6, .col-elg-7, .col-elg-8,
-    .col-elg-9, .col-elg-10, .col-elg-11, .col-elg-12
+    .col-xlg-1, .col-xlg-2, .col-xlg-3, .col-xlg-4, .col-xlg-5, .col-xlg-6, .col-xlg-7, .col-xlg-8,
+    .col-xlg-9, .col-xlg-10, .col-xlg-11, .col-xlg-12
     {
         flex: 0 0 auto;
     } 
-    .col-elg-1 {
+    .col-xlg-1 {
     width: 8.33%;
     }
-    .col-elg-2 {
+    .col-xlg-2 {
     width: 16.66%;
     }
-    .col-elg-3 {
+    .col-xlg-3 {
     width: 25%;
     }
-    .col-elg-4 {
+    .col-xlg-4 {
     width: 33.33%;
     }
-    .col-elg-5 {
+    .col-xlg-5 {
     width: 41.66%;
     }
-    .col-elg-6 {
+    .col-xlg-6 {
     width: 50%;
     }
-    .col-elg-7 {
+    .col-xlg-7 {
     width: 58.33%;
     }
-    .col-elg-8 {
+    .col-xlg-8 {
     width: 66.66%;
     }
-    .col-elg-9 {
+    .col-xlg-9 {
     width: 75%;
     }
-    .col-elg-10 {  
+    .col-xlg-10 {  
     width: 83.33%;
     }
-    .col-elg-11 {   
+    .col-xlg-11 {   
     width: 91.66%;
     }
-    .col-elg-12 {    
+    .col-xlg-12 {    
     width: 100%;
     }
     }
@@ -264,7 +264,7 @@ a
     }
 
 /* Small devices */
-@media (min-width: 0px) and (max-width:  768px) {
+@media (max-width:  768px) {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
     .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12
     {
