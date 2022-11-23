@@ -5,7 +5,7 @@
 }
 h1 
 {
-    text-align:center;
+    text-align: center;
 }
 h2
 {
@@ -13,26 +13,25 @@ h2
 }
 .main
 {
-    padding: 20px;
     width: 100%;
 }
 .heading
 {
     background-color: yellow;
     width: 120px;
-    float:right;
+    float: right;
     text-align: center;
     border: 2px solid black;
 }
 p
 {
-float: right;
-display: block;
-margin: 20px;
+    float: right;
+    display: block;
+    margin: 20px 12px 10px 12px;
 }
 .minor
 {
-    padding: 10px;
+    padding: 25px 20px 10px 20px;
 }
 .underminor
 {
@@ -44,11 +43,13 @@ margin: 20px;
 /* Large devices */
 @media (min-width: 993px) 
     {
+
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
     .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
     {
      float: left;
     } 
+
     .col-lg-1 {
     width: 8.33%;
     }
@@ -133,7 +134,7 @@ margin: 20px;
     }
 
     /* Small devices */
-    @media (min-width: 0px) and (max-width:  768px) {
+    @media (max-width: 768px) {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
     .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12
     {
